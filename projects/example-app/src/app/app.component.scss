@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-toolbar {
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  a {
+    margin-left: var(--spacing-medium);
+
+    &.active {
+      filter: brightness(1.2);
+    }
+  }
+}
+
+main {
+  flex: 1;
+  padding: var(--spacing-medium);
+}
+
+footer {
+  text-align: center;
+  padding: var(--spacing-medium);
+  background: #eee;
+}

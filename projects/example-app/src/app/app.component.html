@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <span>Hello World</span>
+  <span class="spacer"></span>
+  <a mat-flat-button routerLink="/home" routerLinkActive="active" color="primary">Home</a>
+  <a mat-flat-button routerLink="/admin" routerLinkActive="active" color="primary">Admin</a>
+</mat-toolbar>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>MyOrg {{year}} &#169;</footer>
